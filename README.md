@@ -1,6 +1,9 @@
 # UltraNixVideoFix
 Allows the Credits Museum to play a `.webm` file of the same name in place of the original `.mp4` file for UNIX compatibility.
 
+## IMPORTANT
+The video can't just be any `.webm`, it **has** to be encoded with **libvpx/vp8** and **libvorbis**.
+
 ## Installation
 
 Copy/move `NixVideoFix.dll` to your BepInEx plugins directory.
