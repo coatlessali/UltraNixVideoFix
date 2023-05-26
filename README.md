@@ -14,7 +14,7 @@ Remove `NixVideoFix.dll` from your BepInEx plugins directory.
 
 ## Usage
 
-Place a WEBM with the same title as the original video (i.e. `uk_museum_ingame.mp4` -> `uk_museum_ingame.webm`) into `ULTRAKILL_Data/StreamingAssets/Videos/`. Ensure it is encoded with **vp8** video, and **libvorbis** audio.
+Place a WEBM with the same title as the original video (i.e. `uk_museum_ingame.mp4` -> `uk_museum_ingame.webm`) into `ULTRAKILL_Data/StreamingAssets/Videos/` (Linux) / `ULTRAKILL.app/Contents/Resources/StreamingAssets/Videos` (MacOS). Ensure it is encoded with **vp8** video, and **libvorbis** audio.
 
 You can do this with ffmpeg like so (from within the Videos folder):
 `ffmpeg -i uk_museum_ingame.mp4 -c:v libvpx -crf 10 -b:v 8M -c:a libvorbis uk_museum_ingame.webm`
