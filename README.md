@@ -1,3 +1,6 @@
+# REPOSITORY ARCHIVED
+This fix is no longer necessary. Thanks to the ULTRAKILL team for including all video files as WEBMs. With this, it is now possible to get a near 100% accurate Mac/Linux port of ULTRAKILL.
+
 # UltraNixVideoFix
 Allows the Credits Museum to play a `.webm` file of the same name in place of the original `.mp4` file for UNIX compatibility.
 
